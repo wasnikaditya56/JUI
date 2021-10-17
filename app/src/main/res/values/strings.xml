@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">JUI</string>
+    <string name="defectslist">DEFECTSLIST</string>
+    <string name="back">Back</string>
+    <string name="addnew">Add New</string>
+    <string name="enteruser">Enter User</string>
+    <string name="title_activity_submitted_defects_list">SubmittedDefectsListActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <!--Submitte DefectsList Activity-->
+    <string name="location">LOCATION</string>
+    <string name="defectstype">DEFECTSTYPE</string>
+    <string name="remark">REMARKS</string>
+    <string name="photo">PHOTO</string>
+
+</resources>

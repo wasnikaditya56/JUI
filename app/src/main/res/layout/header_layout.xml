@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:background="#00364C">
+
+    <!-- <TextView
+         android:id="@+id/txt_header_layout_srno"
+         android:layout_width="80dp"
+         android:layout_height="wrap_content"
+         android:text="@string/srno"
+         android:textAlignment="center"
+         android:textColor="@color/white"
+         android:textSize="17sp"
+         android:textStyle="bold"
+         android:gravity="center_horizontal" />-->
+
+    <TextView
+        android:id="@+id/txt_header_layout_device"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Ticket"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/txt_header_layout_name"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/txt_header_layout_device"
+        android:text="Submitted Date"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textFontWeight="2"
+        android:textSize="17sp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/txt_header_layout_location"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/txt_header_layout_name"
+        android:text="Action"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textFontWeight="2"
+        android:textSize="17sp"
+        android:gravity="center_horizontal" />
+
+
+
+
+
+
+
+</RelativeLayout>
